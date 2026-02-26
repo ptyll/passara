@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Passara.Core/Passara.Core.csproj" />
+    <Project Path="src/Passara.Desktop.Tests/Passara.Desktop.Tests.csproj" />
+    <Project Path="src/Passara.Desktop/Passara.Desktop.csproj" />
+    <Project Path="src/Passara.NativeHost/Passara.NativeHost.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Passara.IntegrationTests/Passara.IntegrationTests.csproj" />
+    <Project Path="tests/Passara.SecurityTests/Passara.SecurityTests.csproj" />
+  </Folder>
+</Solution>
