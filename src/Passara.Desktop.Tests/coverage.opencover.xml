@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="329" visitedSequencePoints="207" numBranchPoints="82" visitedBranchPoints="60" sequenceCoverage="62.91" branchCoverage="73.17" maxCyclomaticComplexity="138" minCyclomaticComplexity="138" visitedClasses="7" numClasses="8" visitedMethods="43" numMethods="82" />
+  <Modules>
+    <Module hash="59F9B6E8-1CA9-4FE7-9237-117E34FEB694">
+      <ModulePath>Passara.Core.dll</ModulePath>
+      <ModuleTime>2026-02-26T03:53:09</ModuleTime>
+      <ModuleName>Passara.Core</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Work\passara\src\Passara.Core\Resources\Resources.Designer.cs" />
+        <File uid="2" fullPath="C:\Work\passara\src\Passara.Core\Localization\LocalizationExtensions.cs" />
+        <File uid="3" fullPath="C:\Work\passara\src\Passara.Core\Localization\ResourceManagerLocalizationService.cs" />
+        <File uid="4" fullPath="C:\Work\passara\src\Passara.Core\Common\IResult.cs" />
+        <File uid="5" fullPath="C:\Work\passara\src\Passara.Core\Common\Result.cs" />
+        <File uid="6" fullPath="C:\Work\passara\src\Passara.Core\Common\SecureMemory.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="87" visitedSequencePoints="7" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="8.04" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="28" />
+          <FullName>Passara.Core.Resources.Resources</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Resources.ResourceManager Passara.Core.Resources.Resources::get_ResourceManager()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="11" uspid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="44" ordinal="3" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="45" ordinal="4" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="46" ordinal="5" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" uspid="47" ordinal="6" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="42" ordinal="0" path="0" offset="11" offsetend="13" sl="42" fileid="1" />
+                <BranchPoint vc="10" uspid="42" ordinal="1" path="1" offset="11" offsetend="47" sl="42" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="41" ec="1" el="47" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Globalization.CultureInfo Passara.Core.Resources.Resources::get_Culture()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="56" ordinal="0" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="57" ordinal="1" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="58" ordinal="2" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="56" ec="1" el="58" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="True" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Resources.Resources::set_Culture(System.Globalization.CultureInfo)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="59" ordinal="0" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="60" ordinal="1" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="61" ordinal="2" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="59" ec="1" el="61" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_App_Name()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="68" ordinal="0" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="69" ordinal="1" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="70" ordinal="2" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="68" ec="1" el="70" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Button_Cancel()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="77" ordinal="0" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="78" ordinal="1" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="79" ordinal="2" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="77" ec="1" el="79" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Button_Delete()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="86" ordinal="0" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="87" ordinal="1" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="88" ordinal="2" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="86" ec="1" el="88" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Button_Edit()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="95" ordinal="0" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="96" ordinal="1" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="97" ordinal="2" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="95" ec="1" el="97" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Button_Lock()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="104" ordinal="0" sl="104" sc="1" el="104" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="105" ordinal="1" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="106" ordinal="2" sl="106" sc="1" el="106" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="104" ec="1" el="106" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Button_OK()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="113" ordinal="0" sl="113" sc="1" el="113" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="114" ordinal="1" sl="114" sc="1" el="114" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="115" ordinal="2" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="113" ec="1" el="115" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Button_Save()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="122" ordinal="0" sl="122" sc="1" el="122" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="123" ordinal="1" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="124" ordinal="2" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="122" ec="1" el="124" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Button_Unlock()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="131" ordinal="0" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="132" ordinal="1" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="133" ordinal="2" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="131" ec="1" el="133" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_BiometricFailed()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="140" ordinal="0" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="141" ordinal="1" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="142" ordinal="2" sl="142" sc="1" el="142" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="11" offset="11" sc="0" sl="140" ec="1" el="142" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_DecryptionFailed()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="149" ordinal="0" sl="149" sc="1" el="149" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="150" ordinal="1" sl="150" sc="1" el="150" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="151" ordinal="2" sl="151" sc="1" el="151" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="149" ec="1" el="151" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_DiskFull()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="158" ordinal="0" sl="158" sc="1" el="158" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="159" ordinal="1" sl="159" sc="1" el="159" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="160" ordinal="2" sl="160" sc="1" el="160" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="13" offset="13" sc="0" sl="158" ec="1" el="160" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_EncryptionFailed()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="167" ordinal="0" sl="167" sc="1" el="167" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="168" ordinal="1" sl="168" sc="1" el="168" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="169" ordinal="2" sl="169" sc="1" el="169" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="14" offset="14" sc="0" sl="167" ec="1" el="169" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_InvalidMasterPassword()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="176" ordinal="0" sl="176" sc="1" el="176" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="177" ordinal="1" sl="177" sc="1" el="177" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="178" ordinal="2" sl="178" sc="1" el="178" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="15" offset="15" sc="0" sl="176" ec="1" el="178" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_NetworkError()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="185" ordinal="0" sl="185" sc="1" el="185" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="186" ordinal="1" sl="186" sc="1" el="186" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="187" ordinal="2" sl="187" sc="1" el="187" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="16" offset="16" sc="0" sl="185" ec="1" el="187" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_None()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="194" ordinal="0" sl="194" sc="1" el="194" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="195" ordinal="1" sl="195" sc="1" el="195" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="196" ordinal="2" sl="196" sc="1" el="196" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="17" offset="17" sc="0" sl="194" ec="1" el="196" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_PermissionDenied()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="203" ordinal="0" sl="203" sc="1" el="203" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="204" ordinal="1" sl="204" sc="1" el="204" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="205" ordinal="2" sl="205" sc="1" el="205" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="18" offset="18" sc="0" sl="203" ec="1" el="205" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_SyncFailed()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="212" ordinal="0" sl="212" sc="1" el="212" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="213" ordinal="1" sl="213" sc="1" el="213" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="214" ordinal="2" sl="214" sc="1" el="214" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="19" offset="19" sc="0" sl="212" ec="1" el="214" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_TooManyFailedAttempts()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="221" ordinal="0" sl="221" sc="1" el="221" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="222" ordinal="1" sl="222" sc="1" el="222" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="223" ordinal="2" sl="223" sc="1" el="223" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="20" offset="20" sc="0" sl="221" ec="1" el="223" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_UnknownError()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="230" ordinal="0" sl="230" sc="1" el="230" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="231" ordinal="1" sl="231" sc="1" el="231" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="232" ordinal="2" sl="232" sc="1" el="232" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="21" offset="21" sc="0" sl="230" ec="1" el="232" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_VaultAlreadyExists()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="239" ordinal="0" sl="239" sc="1" el="239" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="240" ordinal="1" sl="240" sc="1" el="240" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="241" ordinal="2" sl="241" sc="1" el="241" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="22" offset="22" sc="0" sl="239" ec="1" el="241" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_VaultCorrupted()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="248" ordinal="0" sl="248" sc="1" el="248" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="249" ordinal="1" sl="249" sc="1" el="249" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="250" ordinal="2" sl="250" sc="1" el="250" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="23" offset="23" sc="0" sl="248" ec="1" el="250" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_VaultLocked()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="257" ordinal="0" sl="257" sc="1" el="257" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="258" ordinal="1" sl="258" sc="1" el="258" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="259" ordinal="2" sl="259" sc="1" el="259" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="24" offset="24" sc="0" sl="257" ec="1" el="259" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_Error_VaultNotFound()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="266" ordinal="0" sl="266" sc="1" el="266" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="267" ordinal="1" sl="267" sc="1" el="267" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="268" ordinal="2" sl="268" sc="1" el="268" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="25" offset="25" sc="0" sl="266" ec="1" el="268" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Resources.Resources::get_UntitledEntry()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="275" ordinal="0" sl="275" sc="1" el="275" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="276" ordinal="1" sl="276" sc="1" el="276" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="277" ordinal="2" sl="277" sc="1" el="277" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="26" offset="26" sc="0" sl="275" ec="1" el="277" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Resources.Resources::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="33" ordinal="0" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="34" ordinal="1" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="27" offset="27" sc="0" sl="33" ec="1" el="34" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="25" visitedSequencePoints="21" numBranchPoints="10" visitedBranchPoints="8" sequenceCoverage="84" branchCoverage="80" maxCyclomaticComplexity="4" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>Passara.Core.Localization.LocalizationExtensions</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="71.42" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="71.42" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Localization.LocalizationExtensions::L(Passara.Core.Localization.ILocalizationService,Passara.Core.Common.ErrorCode)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="22" ordinal="4" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="23" ordinal="5" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="24" ordinal="6" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="17" ordinal="0" path="0" offset="7" offsetend="9" sl="17" fileid="2" />
+                <BranchPoint vc="2" uspid="17" ordinal="1" path="1" offset="7" offsetend="21" sl="17" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="16" ec="1" el="24" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Localization.LocalizationExtensions::L(Passara.Core.Localization.ILocalizationService,System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="35" ordinal="1" sl="35" sc="1" el="35" ec="2" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="1" uspid="36" ordinal="2" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="37" ordinal="3" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="40" ordinal="4" sl="40" sc="1" el="40" ec="2" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="1" uspid="41" ordinal="5" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="42" ordinal="6" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="45" ordinal="7" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="46" ordinal="8" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="35" ordinal="0" path="0" offset="7" offsetend="9" sl="35" fileid="2" />
+                <BranchPoint vc="2" uspid="35" ordinal="1" path="1" offset="7" offsetend="21" sl="35" fileid="2" />
+                <BranchPoint vc="1" uspid="40" ordinal="2" path="0" offset="29" offsetend="31" sl="40" fileid="2" />
+                <BranchPoint vc="1" uspid="40" ordinal="3" path="1" offset="29" offsetend="48" sl="40" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="34" ec="1" el="46" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="77.77" branchCoverage="75" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="7" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="77.77" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Localization.LocalizationExtensions::L(Passara.Core.Localization.ILocalizationService,System.String,System.Object[])</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="57" ordinal="0" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="58" ordinal="1" sl="58" sc="1" el="58" ec="2" bec="2" bev="2" fileid="2" />
+                <SequencePoint vc="1" uspid="59" ordinal="2" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="60" ordinal="3" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="63" ordinal="4" sl="63" sc="1" el="63" ec="2" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="0" uspid="64" ordinal="5" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="65" ordinal="6" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="68" ordinal="7" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="69" ordinal="8" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="58" ordinal="0" path="0" offset="7" offsetend="9" sl="58" fileid="2" />
+                <BranchPoint vc="2" uspid="58" ordinal="1" path="1" offset="7" offsetend="21" sl="58" fileid="2" />
+                <BranchPoint vc="0" uspid="63" ordinal="2" path="0" offset="29" offsetend="31" sl="63" fileid="2" />
+                <BranchPoint vc="2" uspid="63" ordinal="3" path="1" offset="29" offsetend="48" sl="63" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="57" ec="1" el="69" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="33" visitedSequencePoints="29" numBranchPoints="12" visitedBranchPoints="9" sequenceCoverage="87.87" branchCoverage="75" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="5" />
+          <FullName>Passara.Core.Localization.ResourceManagerLocalizationService</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Localization.ResourceManagerLocalizationService::get_Item(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="5" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="1" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="31" ordinal="3" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="4" uspid="34" ordinal="4" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="4" uspid="35" ordinal="5" sl="35" sc="1" el="35" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="5" uspid="36" ordinal="6" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="29" ordinal="0" path="0" offset="9" offsetend="11" sl="29" fileid="3" />
+                <BranchPoint vc="4" uspid="29" ordinal="1" path="1" offset="9" offsetend="20" sl="29" fileid="3" />
+                <BranchPoint vc="1" uspid="35" ordinal="2" path="0" offset="41" offsetend="43" sl="35" fileid="3" />
+                <BranchPoint vc="4" uspid="35" ordinal="3" path="1" offset="41" offsetend="45" sl="35" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="28" ec="1" el="36" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="66.66" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="12" visitedSequencePoints="8" numBranchPoints="6" visitedBranchPoints="3" sequenceCoverage="66.66" branchCoverage="50" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Localization.ResourceManagerLocalizationService::GetString(System.String,System.Object[])</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="2" bev="1" fileid="3" />
+                <SequencePoint vc="0" uspid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="44" ordinal="3" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="47" ordinal="4" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="48" ordinal="5" sl="48" sc="1" el="48" ec="2" bec="2" bev="1" fileid="3" />
+                <SequencePoint vc="0" uspid="49" ordinal="6" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="50" ordinal="7" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="53" ordinal="8" sl="53" sc="1" el="53" ec="2" bec="2" bev="1" fileid="3" />
+                <SequencePoint vc="1" uspid="54" ordinal="9" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="55" ordinal="10" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="56" ordinal="11" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="42" ordinal="0" path="0" offset="9" offsetend="11" sl="42" fileid="3" />
+                <BranchPoint vc="1" uspid="42" ordinal="1" path="1" offset="9" offsetend="20" sl="42" fileid="3" />
+                <BranchPoint vc="0" uspid="48" ordinal="2" path="0" offset="45" offsetend="47" sl="48" fileid="3" />
+                <BranchPoint vc="1" uspid="48" ordinal="3" path="1" offset="45" offsetend="52" sl="48" fileid="3" />
+                <BranchPoint vc="1" uspid="53" ordinal="4" path="0" offset="54" offsetend="56" sl="53" fileid="3" />
+                <BranchPoint vc="0" uspid="53" ordinal="5" path="1" offset="54" offsetend="59" sl="53" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="8" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="41" ec="1" el="56" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Localization.ResourceManagerLocalizationService::get_CurrentCulture()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="59" ordinal="0" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="59" ec="1" el="59" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Localization.ResourceManagerLocalizationService::SetCulture(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="63" ordinal="0" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="5" uspid="64" ordinal="1" sl="64" sc="1" el="64" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="1" uspid="65" ordinal="2" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="66" ordinal="3" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="4" uspid="69" ordinal="4" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="70" ordinal="5" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="71" ordinal="6" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="72" ordinal="7" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="64" ordinal="0" path="0" offset="9" offsetend="11" sl="64" fileid="3" />
+                <BranchPoint vc="4" uspid="64" ordinal="1" path="1" offset="9" offsetend="28" sl="64" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="8" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="63" ec="1" el="72" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Localization.ResourceManagerLocalizationService::.ctor()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="10" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="10" uspid="20" ordinal="2" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="10" uspid="21" ordinal="3" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="10" uspid="22" ordinal="4" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="18" ec="1" el="22" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Passara.Core.Common.IResult</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.IResult::get_IsFailure()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="16" ec="1" el="16" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="22" visitedSequencePoints="21" numBranchPoints="6" visitedBranchPoints="4" sequenceCoverage="95.45" branchCoverage="66.66" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="12" numMethods="13" />
+          <FullName>Passara.Core.Common.Result</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result::get_IsSuccess()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="13" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="9" ec="1" el="9" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result::get_IsFailure()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="14" ec="1" el="14" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.ErrorCode Passara.Core.Common.Result::get_ErrorCode()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="17" ec="1" el="17" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Common.Result::get_ErrorMessage()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="20" ec="1" el="20" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.Result Passara.Core.Common.Result::Success()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="32" ordinal="0" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="32" ec="1" el="32" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.Result Passara.Core.Common.Result::Failure(Passara.Core.Common.ErrorCode)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="37" ordinal="0" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="37" ec="1" el="37" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.Result Passara.Core.Common.Result::Failure(Passara.Core.Common.ErrorCode,System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="43" ordinal="0" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="44" ordinal="1" sl="44" sc="1" el="44" ec="2" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="45" ordinal="2" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="46" ordinal="3" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="49" ordinal="4" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="50" ordinal="5" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="44" ordinal="0" path="0" offset="9" offsetend="11" sl="44" fileid="5" />
+                <BranchPoint vc="1" uspid="44" ordinal="1" path="1" offset="9" offsetend="28" sl="44" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="43" ec="1" el="50" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result::Equals(Passara.Core.Common.Result)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="53" ordinal="0" sl="53" sc="1" el="53" ec="2" bec="2" bev="1" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="53" ordinal="0" path="0" offset="13" offsetend="15" sl="53" fileid="5" />
+                <BranchPoint vc="0" uspid="53" ordinal="1" path="1" offset="13" offsetend="32" sl="53" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="53" ec="1" el="53" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result::Equals(System.Object)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="56" ordinal="0" sl="56" sc="1" el="56" ec="2" bec="2" bev="1" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="56" ordinal="0" path="0" offset="6" offsetend="8" sl="56" fileid="5" />
+                <BranchPoint vc="0" uspid="56" ordinal="1" path="1" offset="6" offsetend="24" sl="56" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="56" ec="1" el="56" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Passara.Core.Common.Result::GetHashCode()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="59" ordinal="0" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="59" ec="1" el="59" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result::op_Equality(Passara.Core.Common.Result,Passara.Core.Common.Result)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="64" ordinal="0" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="64" ec="1" el="64" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result::op_Inequality(Passara.Core.Common.Result,Passara.Core.Common.Result)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="69" ordinal="0" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="11" offset="11" sc="0" sl="69" ec="1" el="69" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.Result::.ctor(System.Boolean,Passara.Core.Common.ErrorCode,System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="23" ordinal="0" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="24" ordinal="1" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="25" ordinal="2" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="26" ordinal="3" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="27" ordinal="4" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="23" ec="1" el="27" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="44" visitedSequencePoints="23" numBranchPoints="18" visitedBranchPoints="6" sequenceCoverage="52.27" branchCoverage="33.33" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="9" numMethods="17" />
+          <FullName>Passara.Core.Common.Result`1</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result`1::get_IsSuccess()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="79" ordinal="0" sl="79" sc="1" el="79" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="79" ec="1" el="79" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result`1::get_IsFailure()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="84" ordinal="0" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="84" ec="1" el="84" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.ErrorCode Passara.Core.Common.Result`1::get_ErrorCode()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="87" ordinal="0" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="87" ec="1" el="87" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Common.Result`1::get_ErrorMessage()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="90" ordinal="0" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="90" ec="1" el="90" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>T Passara.Core.Common.Result`1::get_Value()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="93" ordinal="0" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="93" ec="1" el="93" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.Result`1&lt;T&gt; Passara.Core.Common.Result`1::Success(T)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="107" ordinal="0" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="5" uspid="108" ordinal="1" sl="108" sc="1" el="108" ec="2" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="109" ordinal="2" sl="109" sc="1" el="109" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="110" ordinal="3" sl="110" sc="1" el="110" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="4" uspid="113" ordinal="4" sl="113" sc="1" el="113" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="4" uspid="114" ordinal="5" sl="114" sc="1" el="114" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="108" ordinal="0" path="0" offset="12" offsetend="14" sl="108" fileid="5" />
+                <BranchPoint vc="4" uspid="108" ordinal="1" path="1" offset="12" offsetend="31" sl="108" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="107" ec="1" el="114" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.Result`1&lt;T&gt; Passara.Core.Common.Result`1::Failure(Passara.Core.Common.ErrorCode)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="119" ordinal="0" sl="119" sc="1" el="119" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="119" ec="1" el="119" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.Result`1&lt;T&gt; Passara.Core.Common.Result`1::Failure(Passara.Core.Common.ErrorCode,System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="125" ordinal="0" sl="125" sc="1" el="125" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="126" ordinal="1" sl="126" sc="1" el="126" ec="2" bec="2" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="127" ordinal="2" sl="127" sc="1" el="127" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="128" ordinal="3" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="131" ordinal="4" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="132" ordinal="5" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="126" ordinal="0" path="0" offset="9" offsetend="11" sl="126" fileid="5" />
+                <BranchPoint vc="0" uspid="126" ordinal="1" path="1" offset="9" offsetend="28" sl="126" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="125" ec="1" el="132" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.Result`1&lt;T&gt; Passara.Core.Common.Result`1::op_Implicit(T)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="137" ordinal="0" sl="137" sc="1" el="137" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="137" ec="1" el="137" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>T Passara.Core.Common.Result`1::op_Implicit(Passara.Core.Common.Result`1&lt;T&gt;)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="143" ordinal="0" sl="143" sc="1" el="143" ec="2" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="2" uspid="144" ordinal="1" sl="144" sc="1" el="144" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="145" ordinal="2" sl="145" sc="1" el="145" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="143" ordinal="0" path="0" offset="7" offsetend="9" sl="143" fileid="5" />
+                <BranchPoint vc="1" uspid="143" ordinal="1" path="1" offset="7" offsetend="37" sl="143" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="143" ec="1" el="145" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="8" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result`1::Equals(Passara.Core.Common.Result`1&lt;T&gt;)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="149" ordinal="0" sl="149" sc="1" el="149" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="150" ordinal="1" sl="150" sc="1" el="150" ec="2" bec="4" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="151" ordinal="2" sl="151" sc="1" el="151" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="152" ordinal="3" sl="152" sc="1" el="152" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="155" ordinal="4" sl="155" sc="1" el="155" ec="2" bec="2" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="156" ordinal="5" sl="156" sc="1" el="156" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="157" ordinal="6" sl="157" sc="1" el="157" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="160" ordinal="7" sl="160" sc="1" el="160" ec="2" bec="2" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="161" ordinal="8" sl="161" sc="1" el="161" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="150" ordinal="0" path="0" offset="14" offsetend="16" sl="150" fileid="5" />
+                <BranchPoint vc="0" uspid="150" ordinal="1" path="1" offset="14" offsetend="36" sl="150" fileid="5" />
+                <BranchPoint vc="0" uspid="150" ordinal="2" path="0" offset="39" offsetend="41" sl="150" fileid="5" />
+                <BranchPoint vc="0" uspid="150" ordinal="3" path="1" offset="39" offsetend="46" sl="150" fileid="5" />
+                <BranchPoint vc="0" uspid="155" ordinal="4" path="0" offset="62" offsetend="64" sl="155" fileid="5" />
+                <BranchPoint vc="0" uspid="155" ordinal="5" path="1" offset="62" offsetend="83" sl="155" fileid="5" />
+                <BranchPoint vc="0" uspid="160" ordinal="6" path="0" offset="95" offsetend="97" sl="160" fileid="5" />
+                <BranchPoint vc="0" uspid="160" ordinal="7" path="1" offset="95" offsetend="122" sl="160" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="149" ec="1" el="161" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result`1::Equals(System.Object)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="164" ordinal="0" sl="164" sc="1" el="164" ec="2" bec="2" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="164" ordinal="0" path="0" offset="6" offsetend="8" sl="164" fileid="5" />
+                <BranchPoint vc="0" uspid="164" ordinal="1" path="1" offset="6" offsetend="24" sl="164" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="11" offset="11" sc="0" sl="164" ec="1" el="164" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Passara.Core.Common.Result`1::GetHashCode()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="167" ordinal="0" sl="167" sc="1" el="167" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="167" ec="1" el="167" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result`1::op_Equality(Passara.Core.Common.Result`1&lt;T&gt;,Passara.Core.Common.Result`1&lt;T&gt;)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="172" ordinal="0" sl="172" sc="1" el="172" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="13" offset="13" sc="0" sl="172" ec="1" el="172" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.Result`1::op_Inequality(Passara.Core.Common.Result`1&lt;T&gt;,Passara.Core.Common.Result`1&lt;T&gt;)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="177" ordinal="0" sl="177" sc="1" el="177" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="14" offset="14" sc="0" sl="177" ec="1" el="177" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Common.Result`1::ToString()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="180" ordinal="0" sl="180" sc="1" el="180" ec="2" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="2" uspid="181" ordinal="1" sl="181" sc="1" el="181" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="182" ordinal="2" sl="182" sc="1" el="182" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="180" ordinal="0" path="0" offset="6" offsetend="8" sl="180" fileid="5" />
+                <BranchPoint vc="1" uspid="180" ordinal="1" path="1" offset="6" offsetend="31" sl="180" fileid="5" />
+              </BranchPoints>
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="15" offset="15" sc="0" sl="180" ec="1" el="182" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.Result`1::.ctor(System.Boolean,Passara.Core.Common.ErrorCode,System.String,T)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="96" ordinal="0" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="97" ordinal="1" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="98" ordinal="2" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="99" ordinal="3" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="100" ordinal="4" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="7" uspid="101" ordinal="5" sl="101" sc="1" el="101" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="16" offset="16" sc="0" sl="96" ec="1" el="101" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="105" visitedSequencePoints="94" numBranchPoints="30" visitedBranchPoints="27" sequenceCoverage="89.52" branchCoverage="90" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="11" numMethods="13" />
+          <FullName>Passara.Core.Common.SecureMemory</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="50" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Passara.Core.Common.SecureMemory::get_Length()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="59" ordinal="0" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="60" ordinal="1" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="4" uspid="61" ordinal="2" sl="61" sc="1" el="61" ec="2" bec="2" bev="1" fileid="6" />
+                <SequencePoint vc="4" uspid="62" ordinal="3" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="61" ordinal="0" path="0" offset="15" offsetend="17" sl="61" fileid="6" />
+                <BranchPoint vc="4" uspid="61" ordinal="1" path="1" offset="15" offsetend="21" sl="61" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="59" ec="1" el="62" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Passara.Core.Common.SecureMemory::get_IsDisposed()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="68" ordinal="0" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="68" ec="1" el="68" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>T Passara.Core.Common.SecureMemory::Use(System.Func`2&lt;System.Byte[],T&gt;)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="80" ordinal="0" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="81" ordinal="1" sl="81" sc="1" el="81" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="82" ordinal="2" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="83" ordinal="3" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="4" uspid="86" ordinal="4" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="88" ordinal="5" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="90" ordinal="6" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="91" ordinal="7" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="92" ordinal="8" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="93" ordinal="9" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="96" ordinal="10" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="97" ordinal="11" sl="97" sc="1" el="97" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="3" uspid="98" ordinal="12" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="99" ordinal="13" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="100" ordinal="14" sl="100" sc="1" el="100" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="101" ordinal="15" sl="101" sc="1" el="101" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="102" ordinal="16" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="81" ordinal="0" path="0" offset="7" offsetend="9" sl="81" fileid="6" />
+                <BranchPoint vc="4" uspid="81" ordinal="1" path="1" offset="7" offsetend="21" sl="81" fileid="6" />
+                <BranchPoint vc="3" uspid="97" ordinal="2" path="0" offset="85" offsetend="87" sl="97" fileid="6" />
+                <BranchPoint vc="3" uspid="97" ordinal="3" path="1" offset="85" offsetend="96" sl="97" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="17" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="80" ec="1" el="102" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::Use(System.Action`1&lt;System.Byte[]&gt;)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="112" ordinal="0" sl="112" sc="1" el="112" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="113" ordinal="1" sl="113" sc="1" el="113" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="114" ordinal="2" sl="114" sc="1" el="114" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="115" ordinal="3" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="118" ordinal="4" sl="118" sc="1" el="118" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="120" ordinal="5" sl="120" sc="1" el="120" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="122" ordinal="6" sl="122" sc="1" el="122" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="123" ordinal="7" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="124" ordinal="8" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="125" ordinal="9" sl="125" sc="1" el="125" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="126" ordinal="10" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="128" ordinal="11" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="129" ordinal="12" sl="129" sc="1" el="129" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="130" ordinal="13" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="131" ordinal="14" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="132" ordinal="15" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="133" ordinal="16" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="134" ordinal="17" sl="134" sc="1" el="134" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="113" ordinal="0" path="0" offset="7" offsetend="9" sl="113" fileid="6" />
+                <BranchPoint vc="2" uspid="113" ordinal="1" path="1" offset="7" offsetend="21" sl="113" fileid="6" />
+                <BranchPoint vc="1" uspid="129" ordinal="2" path="0" offset="86" offsetend="88" sl="129" fileid="6" />
+                <BranchPoint vc="1" uspid="129" ordinal="3" path="1" offset="86" offsetend="97" sl="129" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="18" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="112" ec="1" el="134" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Byte[] Passara.Core.Common.SecureMemory::ToByteArray()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="144" ordinal="0" sl="144" sc="1" el="144" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="145" ordinal="1" sl="145" sc="1" el="145" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="147" ordinal="2" sl="147" sc="1" el="147" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="148" ordinal="3" sl="148" sc="1" el="148" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="149" ordinal="4" sl="149" sc="1" el="149" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="150" ordinal="5" sl="150" sc="1" el="150" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="144" ec="1" el="150" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Passara.Core.Common.SecureMemory::ToString()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="158" ordinal="0" sl="158" sc="1" el="158" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="159" ordinal="1" sl="159" sc="1" el="159" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="160" ordinal="2" sl="160" sc="1" el="160" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="158" ec="1" el="160" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::Dispose()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="16" uspid="166" ordinal="0" sl="166" sc="1" el="166" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="16" uspid="167" ordinal="1" sl="167" sc="1" el="167" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="16" uspid="168" ordinal="2" sl="168" sc="1" el="168" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="16" uspid="169" ordinal="3" sl="169" sc="1" el="169" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="166" ec="1" el="169" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="8" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::Dispose(System.Boolean)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="16" uspid="176" ordinal="0" sl="176" sc="1" el="176" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="16" uspid="177" ordinal="1" sl="177" sc="1" el="177" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="15" uspid="178" ordinal="2" sl="178" sc="1" el="178" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="179" ordinal="3" sl="179" sc="1" el="179" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="15" uspid="180" ordinal="4" sl="180" sc="1" el="180" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="182" ordinal="5" sl="182" sc="1" el="182" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="15" uspid="183" ordinal="6" sl="183" sc="1" el="183" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="184" ordinal="7" sl="184" sc="1" el="184" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="185" ordinal="8" sl="185" sc="1" el="185" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="186" ordinal="9" sl="186" sc="1" el="186" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="189" ordinal="10" sl="189" sc="1" el="189" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="15" uspid="190" ordinal="11" sl="190" sc="1" el="190" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="191" ordinal="12" sl="191" sc="1" el="191" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="192" ordinal="13" sl="192" sc="1" el="192" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="194" ordinal="14" sl="194" sc="1" el="194" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="195" ordinal="15" sl="195" sc="1" el="195" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="196" ordinal="16" sl="196" sc="1" el="196" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="16" uspid="197" ordinal="17" sl="197" sc="1" el="197" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="15" uspid="177" ordinal="0" path="0" offset="12" offsetend="14" sl="177" fileid="6" />
+                <BranchPoint vc="15" uspid="179" ordinal="2" path="0" offset="18" offsetend="20" sl="179" fileid="6" />
+                <BranchPoint vc="15" uspid="182" ordinal="4" path="0" offset="35" offsetend="37" sl="182" fileid="6" />
+                <BranchPoint vc="15" uspid="182" ordinal="5" path="1" offset="35" offsetend="51" sl="182" fileid="6" />
+                <BranchPoint vc="15" uspid="179" ordinal="3" path="1" offset="18" offsetend="52" sl="179" fileid="6" />
+                <BranchPoint vc="15" uspid="189" ordinal="6" path="0" offset="65" offsetend="67" sl="189" fileid="6" />
+                <BranchPoint vc="15" uspid="189" ordinal="7" path="1" offset="65" offsetend="81" sl="189" fileid="6" />
+                <BranchPoint vc="16" uspid="177" ordinal="1" path="1" offset="12" offsetend="96" sl="177" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="18" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="176" ec="1" el="197" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::Finalize()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="203" ordinal="0" sl="203" sc="1" el="203" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="204" ordinal="1" sl="204" sc="1" el="204" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="205" ordinal="2" sl="205" sc="1" el="205" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="203" ec="1" el="205" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::ThrowIfDisposed()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="211" ordinal="0" sl="211" sc="1" el="211" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="11" uspid="212" ordinal="1" sl="212" sc="1" el="212" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="3" uspid="213" ordinal="2" sl="213" sc="1" el="213" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="214" ordinal="3" sl="214" sc="1" el="214" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="8" uspid="216" ordinal="4" sl="216" sc="1" el="216" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="3" uspid="212" ordinal="0" path="0" offset="9" offsetend="11" sl="212" fileid="6" />
+                <BranchPoint vc="8" uspid="212" ordinal="1" path="1" offset="9" offsetend="23" sl="212" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="211" ec="1" el="216" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="77.77" branchCoverage="66.66" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="7" numBranchPoints="6" visitedBranchPoints="4" sequenceCoverage="77.77" branchCoverage="66.66" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::ZeroMemory(System.Byte[])</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="19" uspid="222" ordinal="0" sl="222" sc="1" el="222" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="19" uspid="223" ordinal="1" sl="223" sc="1" el="223" ec="2" bec="4" bev="2" fileid="6" />
+                <SequencePoint vc="0" uspid="224" ordinal="2" sl="224" sc="1" el="224" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="225" ordinal="3" sl="225" sc="1" el="225" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="206" uspid="230" ordinal="4" sl="230" sc="1" el="230" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="84" uspid="231" ordinal="5" sl="231" sc="1" el="231" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="84" uspid="232" ordinal="6" sl="232" sc="1" el="232" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="84" uspid="233" ordinal="7" sl="233" sc="1" el="233" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="19" uspid="234" ordinal="8" sl="234" sc="1" el="234" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="19" uspid="223" ordinal="0" path="0" offset="2" offsetend="4" sl="223" fileid="6" />
+                <BranchPoint vc="0" uspid="223" ordinal="1" path="1" offset="2" offsetend="11" sl="223" fileid="6" />
+                <BranchPoint vc="0" uspid="223" ordinal="2" path="0" offset="14" offsetend="16" sl="223" fileid="6" />
+                <BranchPoint vc="19" uspid="223" ordinal="3" path="1" offset="14" offsetend="19" sl="223" fileid="6" />
+                <BranchPoint vc="84" uspid="230" ordinal="5" path="1" offset="41" offsetend="23" sl="230" fileid="6" />
+                <BranchPoint vc="19" uspid="230" ordinal="4" path="0" offset="41" offsetend="43" sl="230" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="222" ec="1" el="234" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::.ctor(System.Byte[])</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="12" uspid="24" ordinal="0" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="12" uspid="25" ordinal="1" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="12" uspid="26" ordinal="2" sl="26" sc="1" el="26" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="27" ordinal="3" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="28" ordinal="4" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="11" uspid="31" ordinal="5" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="11" uspid="32" ordinal="6" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="11" uspid="33" ordinal="7" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="11" uspid="34" ordinal="8" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="26" ordinal="0" path="0" offset="14" offsetend="16" sl="26" fileid="6" />
+                <BranchPoint vc="11" uspid="26" ordinal="1" path="1" offset="14" offsetend="28" sl="26" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="11" offset="11" sc="0" sl="24" ec="1" el="34" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Passara.Core.Common.SecureMemory::.ctor(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="44" ordinal="3" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="45" ordinal="4" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="4" uspid="48" ordinal="5" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="4" uspid="49" ordinal="6" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="4" uspid="50" ordinal="7" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="43" ordinal="0" path="0" offset="14" offsetend="16" sl="43" fileid="6" />
+                <BranchPoint vc="4" uspid="43" ordinal="1" path="1" offset="14" offsetend="28" sl="43" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="8" uspid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="41" ec="1" el="50" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Passara.Core.Common.SecureMemoryExtensions</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.SecureMemory Passara.Core.Common.SecureMemoryExtensions::ToSecureMemory(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="249" ordinal="0" sl="249" sc="1" el="249" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="250" ordinal="1" sl="250" sc="1" el="250" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="251" ordinal="2" sl="251" sc="1" el="251" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="252" ordinal="3" sl="252" sc="1" el="252" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="255" ordinal="4" sl="255" sc="1" el="255" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="256" ordinal="5" sl="256" sc="1" el="256" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="250" ordinal="0" path="0" offset="7" offsetend="9" sl="250" fileid="6" />
+                <BranchPoint vc="1" uspid="250" ordinal="1" path="1" offset="7" offsetend="21" sl="250" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="249" ec="1" el="256" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Passara.Core.Common.SecureMemory Passara.Core.Common.SecureMemoryExtensions::ToSecureMemory(System.Byte[])</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="265" ordinal="0" sl="265" sc="1" el="265" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="266" ordinal="1" sl="266" sc="1" el="266" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="267" ordinal="2" sl="267" sc="1" el="267" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="268" ordinal="3" sl="268" sc="1" el="268" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="271" ordinal="4" sl="271" sc="1" el="271" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="272" ordinal="5" sl="272" sc="1" el="272" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="266" ordinal="0" path="0" offset="7" offsetend="9" sl="266" fileid="6" />
+                <BranchPoint vc="1" uspid="266" ordinal="1" path="1" offset="7" offsetend="21" sl="266" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="265" ec="1" el="272" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

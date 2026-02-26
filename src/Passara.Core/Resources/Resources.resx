@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Error Messages -->
+  <data name="Error_None" xml:space="preserve">
+    <value>No error.</value>
+  </data>
+  <data name="Error_InvalidMasterPassword" xml:space="preserve">
+    <value>Invalid master password.</value>
+  </data>
+  <data name="Error_VaultLocked" xml:space="preserve">
+    <value>Vault is locked.</value>
+  </data>
+  <data name="Error_BiometricFailed" xml:space="preserve">
+    <value>Biometric authentication failed.</value>
+  </data>
+  <data name="Error_TooManyFailedAttempts" xml:space="preserve">
+    <value>Too many failed attempts. Please try again later.</value>
+  </data>
+  <data name="Error_VaultNotFound" xml:space="preserve">
+    <value>Vault not found.</value>
+  </data>
+  <data name="Error_VaultCorrupted" xml:space="preserve">
+    <value>Vault file is corrupted.</value>
+  </data>
+  <data name="Error_VaultAlreadyExists" xml:space="preserve">
+    <value>Vault already exists.</value>
+  </data>
+  <data name="Error_EncryptionFailed" xml:space="preserve">
+    <value>Encryption failed.</value>
+  </data>
+  <data name="Error_DecryptionFailed" xml:space="preserve">
+    <value>Decryption failed. Invalid password or corrupted data.</value>
+  </data>
+  <data name="Error_SyncFailed" xml:space="preserve">
+    <value>Synchronization failed.</value>
+  </data>
+  <data name="Error_NetworkError" xml:space="preserve">
+    <value>Network error. Please check your connection.</value>
+  </data>
+  <data name="Error_DiskFull" xml:space="preserve">
+    <value>Disk full. Cannot save data.</value>
+  </data>
+  <data name="Error_PermissionDenied" xml:space="preserve">
+    <value>Permission denied.</value>
+  </data>
+  <data name="Error_UnknownError" xml:space="preserve">
+    <value>An unknown error occurred.</value>
+  </data>
+  <!-- Common UI Strings -->
+  <data name="App_Name" xml:space="preserve">
+    <value>Passara</value>
+  </data>
+  <data name="Button_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Button_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Button_Unlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="Button_Lock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="UntitledEntry" xml:space="preserve">
+    <value>Untitled</value>
+  </data>
+</root>
